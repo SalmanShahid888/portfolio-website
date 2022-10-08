@@ -2,3 +2,8 @@ body {
   background-color: #202020;
 }
 
+@font-face {
+  font-family: Leixo;
+  src: local(Leixo), url(./Fonts/Leixo/LeixoDemo-g613.ttf);
+  font-variant: normal;
+}
