@@ -1,0 +1,48 @@
+.about__heading {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.heading__section {
+    background-color: #272727;
+}
+
+.about__section {
+    padding: 0% 10% 0% 10%;
+    background-color: #272727;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.social__links {
+    display: inline;
+    align-self: left;
+    padding: 8px;
+    color: white;
+    font-size: 30px;
+    }
+
+.profile__pic{
+height: 70%;
+width: 9%;
+border-radius: 60%;
+}
+    
+.profile__section {
+display: flex;
+flex-direction: column;
+}
+
+.profile__name {
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.social__links span :hover {
+        color: #FEDA4E;
+}
