@@ -20,7 +20,11 @@ const About = () => {
     </div>
 
     <div className={styles.profile__text}>
-
+        <p className={styles.about__text}> I am a software engineer currently studying at the university in the last year of my Graduate Degree.
+        I have 2+ years of experience with React.js. I love building websites and experimenting with stuff.
+        Since 2020, I've been enjoying the opportunity open source has given me to make my contributions as well.
+        I also enjoy gaming in my free time. I would say I am pretty good at First Person shooters.
+        This will be an adventure that's different than anything I ever did before — one where you are part of a project from the beginning!</p>
     </div>
     </div>
     </>

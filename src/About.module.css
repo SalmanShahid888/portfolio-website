@@ -3,6 +3,7 @@
     color: white;
     text-transform: uppercase;
     font-weight: 400;
+    padding-bottom: 2%;
 }
 
 .heading__section {
@@ -14,7 +15,7 @@
     background-color: #272727;
     display: flex;
     flex-direction: row;
-    align-content: space-between;
+    align-items: center;
 }
 
 .social__links {
@@ -23,17 +24,27 @@
     padding: 8px;
     color: white;
     font-size: 30px;
+    align-self: center;
+    margin: 2%;
+    }
+
+    .social__links span {
+        padding: 10px;
     }
 
 .profile__pic{
 height: 70%;
-width: 9%;
+width: 30%;
 border-radius: 60%;
+align-self: center;
+
 }
     
 .profile__section {
 display: flex;
 flex-direction: column;
+align-content: center;
+padding-top: 5%;
 }
 
 .profile__name {
@@ -41,8 +52,17 @@ flex-direction: column;
     font-weight: 400;
     font-size: 24px;
     text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
 }
 
 .social__links span :hover {
         color: #FEDA4E;
+}
+
+.about__text {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 12%;
 }
