@@ -1,0 +1,94 @@
+.footer__section {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 5% 10% 5% 10%;
+    justify-content: space-between;
+}
+
+.name {
+font-family: "Leixo";
+text-transform: capitalize;
+font-size: 28px;
+font-weight: 500;
+color: #FEDA4E;
+}
+
+.js {
+    margin-top: 5%;
+text-transform: capitalize;
+font-size: 28px;
+font-weight: lighter;
+color:white;
+}
+
+.footer__headings {
+    text-align: left;
+    font-size: 26px;
+    color: white;
+    font-weight: 400;
+}
+
+.footer__contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.social__links {
+    align-self: center;
+    padding: 8px;
+    color: white;
+    font-size: 30px;
+    }
+    .social__links span {
+    padding-right: 10px;
+    }
+    
+    .social__links span :hover {
+        color: #FEDA4E;
+    }
+
+
+    .footer__menu ul{
+        list-style-type: none;
+        padding: 0px;
+    }
+    
+    .footer__menu li{   
+    list-style-type: none;
+    padding: 10px 0px 10px 0px;
+    }
+    
+    .footer__menu  li > a {
+        color: white;
+        display: inline;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    
+    .footer__menu li :hover{
+     color: #FEDA4E;
+    }
+    
+    .contact__text {
+        padding-top: 10%;
+        color: white;
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .footer__bottom{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        background-color: #2F2F2F;
+        color: white;
+        font-weight: 200;
+    }
+
+    .footer__bottom__text {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
