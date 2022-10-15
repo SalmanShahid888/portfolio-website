@@ -1,0 +1,12 @@
+.contact__section {
+    padding: 10px;
+}
+
+.contact__heading {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-top: 7%;
+    padding-bottom: 2%;
+}

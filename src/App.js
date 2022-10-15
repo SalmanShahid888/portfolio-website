@@ -1,5 +1,6 @@
 import About from './About';
 import './App.css';
+import Contact from './Contact';
 import Footer from './Footer';
 import Header from './Header';
 import Introduction from './Introduction'
@@ -12,6 +13,7 @@ function App() {
       <Introduction/>
       <Skills/>
       <About/>
+      <Contact/>
       <Footer/>
     </div>
   );
