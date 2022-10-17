@@ -7,3 +7,7 @@ body {
   src: local(Leixo), url(./Fonts/Leixo/LeixoDemo-g613.ttf);
   font-variant: normal;
 }
+
+input, button, textarea, select {
+  font: inherit;
+}

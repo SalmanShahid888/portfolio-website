@@ -1,5 +1,13 @@
 .contact__section {
     padding: 10px;
+    margin-bottom: 5%;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    padding: 10px 0px 10px 5vw;
 }
 
 .contact__heading {
@@ -9,4 +17,15 @@
     font-weight: 400;
     padding-top: 7%;
     padding-bottom: 2%;
+    margin-bottom: 5%;
+}
+
+.contact__text {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 5% 5% 5% 5%;
+    max-width:50%;
+    word-wrap:break-word;
 }

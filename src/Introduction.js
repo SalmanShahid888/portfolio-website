@@ -7,7 +7,7 @@ const Introduction = () => {
     <div className={styles.intro__container}>
         <h1 className={styles.intro__name}>Salman</h1>
         <h2 className={styles.intro__js}>Javascript Developer</h2>
-        <p className={styles.intro__text}>Hey!  I am Salman, a Software Engineer<br/>and a self-taught web developer focused on the building the Frontend of Websites and Web application 
+        <p className={styles.intro__text}>Hey!  I am Salman, a Software Engineer and a self-taught web developer focused on the building the Frontend of Websites and Web application 
         that lead to success of the overall product.</p>
     </div>
     <div className={styles.overview__section}>

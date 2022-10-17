@@ -1,0 +1,57 @@
+#contact__formId{
+    padding-left: 8vw;
+    align-content: flex-end;
+}
+
+input[type="text"], [type="email"]{
+    width: 20vw;
+    height: 5vh;
+    background-color: #272727;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: #FEDA4E;
+    box-shadow: none;
+    border-style: solid;
+    margin: 2% 1% 02% 0%;
+    padding-left: 10px;
+    color: white;
+}
+
+input[type="submit"] {
+    width: 8vw;
+    height: 5vh;
+    background-color: #272727;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: #FEDA4E;
+    box-shadow: none;
+    border-style: solid;
+    transition: 0.1s ease-in;
+    color: #FEDA4E;
+    padding: 8px 0px 26px 0px;
+    margin-right: 4vw;
+    text-transform: uppercase;
+    float: right;
+}
+
+input[type="submit"]:hover {
+background-color: #FEDA4E;
+color: white;
+}
+
+
+#user__message {
+    width: 42vw;
+    height: 5vh;
+    background-color: #272727;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: #FEDA4E;
+    border-style: solid;
+    margin-left: 0%;
+    margin-bottom: 2%;
+    padding-left: 10px;
+
+}
+
+
