@@ -12,10 +12,10 @@ const Footer = () => {
         <section className={styles.footer__menu}>
            <text className={styles.footer__headings}>Pages</text> 
            <ul>
-            <li><a href="home.js">Home</a></li>
-            <li><a href="projects.js">Projects</a></li>
-            <li><a href="about.js">About</a></li>
-            <li><a href="contact.js">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
            </ul>
         </section>
         <section className={styles.footer__contact}>
