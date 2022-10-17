@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './About.module.css'
 import profilePic from "./svg/profilepic.jpg"
-import {FaFacebook,FaGithub,FaLinkedin} from 'react-icons/fa'
+import {FaTwitter,FaGithub,FaLinkedin} from 'react-icons/fa'
 const About = () => {
   return (
     <>
@@ -13,10 +13,10 @@ const About = () => {
     <img className={styles.profile__pic} src={profilePic} alt={"profile"}></img>
     <h1 className={styles.profile__name}>Salman Shahid</h1>
     <div className={styles.social__links}>
-        <span><FaFacebook/></span>
-        <span><FaGithub/></span>
-        <span><FaLinkedin/></span>
-        </div> 
+        <span onClick={()=>{window.open('https://twitter.com/JJust_Sal', '_blank');}}><FaTwitter/></span>
+        <span onClick={()=>{window.open('https://github.com/SalmanShahid888', '_blank');}}><FaGithub/></span>
+        <span onClick={()=>{window.open('https://www.linkedin.com/in/salman-shahid-25aba71ba/', '_blank');}}><FaLinkedin/></span>
+    </div> 
     </div>
 
     <div className={styles.profile__text}>

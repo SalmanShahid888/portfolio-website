@@ -1,11 +1,10 @@
 import React from 'react'
-// import {useNavigate} from "react-router-dom"
 import styles from "./Header.module.css"
-import {FaFacebook,FaGithub,FaLinkedin} from 'react-icons/fa'
+import {FaTwitter,FaGithub,FaLinkedin} from 'react-icons/fa'
 
 const Header = () => {
   return (
-    <div className={styles.header__container}>
+    <div id="home" className={styles.header__container}>
         <span onClick={()=>{}} className={styles.logo__text}>S</span>
         <div className={styles.main__menu}>
         <ul>
@@ -16,9 +15,9 @@ const Header = () => {
         </ul>
         </div>
         <div className={styles.social__links}>
-        <span><FaFacebook/></span>
-        <span><FaGithub/></span>
-        <span><FaLinkedin/></span>
+        <span onClick={()=>{window.open('https://www.google.com', '_blank');}}><FaTwitter/></span>
+        <span onClick={()=>{window.open('https://www.google.com', '_blank');}}><FaGithub/></span>
+        <span onClick={()=>{window.open('https://www.google.com', '_blank');}}><FaLinkedin/></span>
         </div>     
     </div>
   )

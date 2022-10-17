@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Footer.module.css'
-import {FaFacebook,FaGithub,FaLinkedin} from 'react-icons/fa'
+import {FaTwitter,FaGithub,FaLinkedin} from 'react-icons/fa'
 const Footer = () => {
   return (
     <>
@@ -24,9 +24,9 @@ const Footer = () => {
             <text className={styles.contact__text}>RYK, Pakistan</text>
         </section>
         <section className={styles.social__links}>
-        <span><FaFacebook/></span>
-        <span><FaGithub/></span>
-        <span><FaLinkedin/></span>  
+        <span onClick={()=>{window.open('https://twitter.com/JJust_Sal', '_blank');}}><FaTwitter/></span>
+        <span onClick={()=>{window.open('https://github.com/SalmanShahid888', '_blank');}}><FaGithub/></span>
+        <span onClick={()=>{window.open('https://www.linkedin.com/in/salman-shahid-25aba71ba/', '_blank');}}><FaLinkedin/></span>
         </section>
     </div>
     <div className={styles.footer__bottom}>
