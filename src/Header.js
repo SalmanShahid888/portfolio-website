@@ -9,10 +9,10 @@ const Header = () => {
         <span onClick={()=>{}} className={styles.logo__text}>S</span>
         <div className={styles.main__menu}>
         <ul>
-            <li><a href='home.js'>Home</a></li>
-            <li><a href='home.js'>Projects</a></li>
-            <li><a href='home.js'>About</a></li>
-            <li><a href='home.js'>Contact</a></li>
+            <li><a href='#home'>Home</a></li>
+            <li><a href='#projects'>Projects</a></li>
+            <li><a href='#about'>About</a></li>
+            <li><a href='#contact'>Contact</a></li>
         </ul>
         </div>
         <div className={styles.social__links}>

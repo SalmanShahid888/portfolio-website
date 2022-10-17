@@ -5,7 +5,7 @@ import {FaFacebook,FaGithub,FaLinkedin} from 'react-icons/fa'
 const About = () => {
   return (
     <>
-    <div className={styles.heading__section}>
+    <div id="about" className={styles.heading__section}>
     <h1 className={styles.about__heading}>About</h1>
     </div>
     <div className={styles.about__section}>

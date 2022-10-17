@@ -4,7 +4,7 @@ import ContactFrom from './ContactFrom'
 const Contact = () => {
   return (
     <>
-    <div className={styles.contact__section}>
+    <div id="contact" className={styles.contact__section}>
     <h1 className={styles.contact__heading}>Contact</h1>
     <div className={styles.contact__form}>
     <text className={styles.contact__text}>

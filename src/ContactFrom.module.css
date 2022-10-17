@@ -1,5 +1,4 @@
 #contact__formId{
-    padding-left: 8vw;
     align-content: flex-end;
 }
 
@@ -29,7 +28,7 @@ input[type="submit"] {
     transition: 0.1s ease-in;
     color: #FEDA4E;
     padding: 8px 0px 26px 0px;
-    margin-right: 4vw;
+    margin-right: 8.5vw;
     text-transform: uppercase;
     float: right;
 }
@@ -41,7 +40,7 @@ color: white;
 
 
 #user__message {
-    width: 42vw;
+    width: 41.8vw;
     height: 5vh;
     background-color: #272727;
     border-radius: 20px;
@@ -51,7 +50,12 @@ color: white;
     margin-left: 0%;
     margin-bottom: 2%;
     padding-left: 10px;
+    color: white;
 
+}
+
+input[type="submit"] :focus-within{
+    border-color: aquamarine;
 }
 
 
