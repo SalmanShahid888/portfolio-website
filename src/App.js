@@ -4,6 +4,7 @@ import Contact from './Contact';
 import Footer from './Footer';
 import Header from './Header';
 import Introduction from './Introduction'
+import Projects from './Projects';
 import Skills from './Skills';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Header/>
       <Introduction/>
       <Skills/>
+      <Projects/>
       <About/>
       <Contact/>
       <Footer/>

@@ -1,5 +1,13 @@
 .Projects__section {
     color: white;
+}
+
+.projects__heading {
     text-align: center;
+    color: white;
     text-transform: uppercase;
+    font-weight: 400;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
 }
