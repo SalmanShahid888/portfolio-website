@@ -15,9 +15,9 @@ const Header = () => {
         </ul>
         </div>
         <div className={styles.social__links}>
-        <span onClick={()=>{window.open('https://www.google.com', '_blank');}}><FaTwitter/></span>
-        <span onClick={()=>{window.open('https://www.google.com', '_blank');}}><FaGithub/></span>
-        <span onClick={()=>{window.open('https://www.google.com', '_blank');}}><FaLinkedin/></span>
+        <span onClick={()=>{window.open('https://twitter.com/JJust_Sal', '_blank');}}><FaTwitter/></span>
+        <span onClick={()=>{window.open('https://github.com/SalmanShahid888', '_blank');}}><FaGithub/></span>
+        <span onClick={()=>{window.open('https://www.linkedin.com/in/salman-shahid-25aba71ba/', '_blank');}}><FaLinkedin/></span>
         </div>     
     </div>
   )
