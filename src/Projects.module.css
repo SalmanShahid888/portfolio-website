@@ -9,5 +9,9 @@
     font-weight: 400;
     padding-top: 5%;
     padding-bottom: 2%;
-    margin-bottom: 5%;
+    margin-bottom: 20%;
+}
+
+.projects__grid{
+    display: block;
 }

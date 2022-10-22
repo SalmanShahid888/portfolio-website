@@ -62,7 +62,7 @@ const Skills = () => {
     ]
   return (
     <>
-    <div id="projects" className={styles.heading__section}>
+    <div className={styles.heading__section}>
     <h1 className={styles.skills__heading}>My Skills</h1>
     </div>
     <div className={styles.skills__section}>
