@@ -13,7 +13,7 @@ const ContactFrom = () => {
   const [isOpen, setIsOpen] = useState(false)
   const emailRegex = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/i;
   const form = useRef();
-
+  
   const formSubmitHandler = (event) => {
     event.preventDefault();
 
@@ -30,23 +30,17 @@ const ContactFrom = () => {
       setEmail('');
       setDescription("");
     } else {
-      const inputElement = document.querySelectorAll("input");
-      const buttonElement = document.getElementsByClassName("form__sumbit__button");
-      inputElement.style.cssText += "border-color: red;"
-      buttonElement.setAttribute("disabled")
-    }
- 
-
-    
+        window.alert("Invalid Form Submission")
+    } 
   }; 
 
 
   return <>
-  <form ref={form} id={styles.contact__formId} onSubmit={formSubmitHandler}>
-    <input type={"text"} name={"user_name"} value={name} placeholder="Name" onChange={(e)=>{setName(e.target.value)}} required={true}/>
-    <input type={"email"} name={"user_email"} value={email} placeholder="Email" onChange={(e)=>{setEmail(e.target.value)}} required={true}/>
-    <input id={styles.user__message} name={"message"} value={description} onChange={e=>setDescription(e.target.value)} placeholder="Message" required={true}></input>   
-    <input id={styles.form__button} className={"form__sumbit__button"} type="submit" value={"send"}/>
+  <form ref={form} id={styles.contact__formId} onSubmit={formSubmitHandler} autoComplete={"off"}>
+    <input type={"text"} className="form__sumbit__input" name={"user_name"} value={name} placeholder="Name" onChange={(e)=>{setName(e.target.value)}} required={true} autoComplete={"off"}/>
+    <input type={"email"} className="form__sumbit__input" name={"user_email"} value={email} placeholder="Email" onChange={(e)=>{setEmail(e.target.value)}} required={true} autoComplete={"off"}/>
+    <input id={styles.user__message} className="form__sumbit__input" name={"message"} value={description} onChange={e=>setDescription(e.target.value)} placeholder="Message" required={true} autoComplete={"off"}></input>   
+    <input id={styles.form__button} className="form__sumbit__button" type="submit" value={"send"}/>
   </form>
    <Modal open={isOpen} onClose={()=>{setIsOpen(false)}}/>
   </> 
