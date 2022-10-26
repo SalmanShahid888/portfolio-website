@@ -2,7 +2,9 @@
     align-content: flex-end;
 }
 
+
 input[type="text"], [type="email"]{
+    outline: none;
     width: 20vw;
     height: 5vh;
     background-color: #272727;
@@ -17,6 +19,7 @@ input[type="text"], [type="email"]{
 }
 
 input[type="submit"] {
+    outline: none;
     width: 8vw;
     height: 5vh;
     background-color: #272727;
@@ -39,7 +42,13 @@ color: white;
 }
 
 
+
+input[name="message"] {
+    background-color: #272727
+}
+
 #user__message {
+    outline: none;
     width: 41.8vw;
     height: 5vh;
     background-color: #272727;
