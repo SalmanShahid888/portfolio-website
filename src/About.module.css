@@ -24,7 +24,7 @@
     align-self: left;
     padding: 8px;
     color: white;
-    font-size: 30px;
+    font-size: 2vw;
     align-self: center;
     margin: 2%;
     }
@@ -51,7 +51,7 @@ padding-top: 5%;
 .profile__name {
     color: white;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5625vw;
     text-transform: uppercase;
     text-align: center;
     margin-top: 30px;
@@ -63,7 +63,13 @@ padding-top: 5%;
 
 .about__text {
     color: white;
-    font-size: 20px;
+    font-size: 1.3020833333333333vw;
     font-weight: 300;
     padding-left: 12%;
+}
+
+@media screen and (max-width: 950px) {
+    .about__section {
+        padding: 0% 10% 05% 0%;
+    }
 }

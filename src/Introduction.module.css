@@ -1,12 +1,12 @@
 .intro__container{
-    padding: 15% 10% 15% 10%;
+    padding: 15% 0% 15% 0%;
     text-align: center;
 }
 
 .intro__name {
     font-family: "Leixo";
     color: #FEDA4E;
-    font-size: 105px;
+    font-size: 6.8359375vw;
     text-transform: uppercase;
     padding: 0px;
     margin: 0px;
@@ -18,7 +18,7 @@
     color: white;
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 2.2786458333333335vw;
     padding: 0px;
     margin-top: 5px;
 }
@@ -26,10 +26,9 @@
 .intro__text{
     font-weight: 300;
     color: white;
-    font-size: 22px;
-    line-height: 1.8rem;
-    padding: 0px 30% 0px 30%;
-    margin-left: 1%;
+    font-size: 1.4322916666666667vw;
+    line-height: 3.713527851458886vh;
+    padding: 0px 35vw 0px 35.5vw;
     text-align: left;
 
 }
@@ -43,12 +42,13 @@ text-align: left;
 color: #FEDA4E;
 text-transform: uppercase;
 font-weight: 400;
-font-size: 40px;
+font-size: 2.6041666666666665vw;
 }
 
 .overview__text{
 font-weight: 300;
 text-align: left;
 color: white;
-font-size: 22px;
+font-size: 1.4322916666666667vw;
 }
+

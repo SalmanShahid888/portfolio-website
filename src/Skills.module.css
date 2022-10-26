@@ -27,6 +27,7 @@
     margin: 10px;
     align-items: center;
     border-radius: 10px;
+    justify-items: center;
 }
 
 .skills__container:hover{
@@ -45,4 +46,52 @@
     font-size: 20px;
     text-align: center;
     padding-top: 5%;
+}
+
+@media screen and (max-width: 1010px){
+    .skills__container {
+        height: 200px;
+        width: 200px;
+    }
+    .logo__img {
+        margin: 0px;
+        padding: 35px 30px 0px 65px
+    }
+}
+
+@media screen and (max-width: 830px){
+    .skills__container {
+        height: 150px;
+        width: 150px;
+    }
+    .logo__img {
+        height: 40px;
+        width: 40px;
+        margin: 0px;
+        padding: 35px 30px 0px 55px
+    }
+    .logo__name {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .skills__section {
+        padding: 10px;
+    }
+    .skills__container {
+        height: 100px;
+        width: 100px;
+        margin: 05px;
+        padding: 0px; 
+    }
+    .logo__img {
+        height: 30px;
+        width: 30px;
+        margin: 0px;
+        padding: 15px 0px 0px 35px
+    }
+    .logo__name {
+        font-size: 12px;
+    }
 }

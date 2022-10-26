@@ -6,6 +6,7 @@ body {
   font-family: 'Lexend Deca';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; 
+  overflow-x: hidden;
 }
 
 h1 {
@@ -13,5 +14,10 @@ h1 {
   padding: 0px;
 }
 
+@media screen and (max-width: 900px){
+  body {
+    overflow-x: hidden;
+  }
+}
 
 

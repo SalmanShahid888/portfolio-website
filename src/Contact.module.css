@@ -29,3 +29,9 @@
     max-width:50%;
     word-wrap:break-word;
 }
+
+@media screen and (max-width: 570px) {
+    .contact__text {
+        font-size: 2vw;
+    }
+}

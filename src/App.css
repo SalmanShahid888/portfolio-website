@@ -1,5 +1,6 @@
 body {
   background-color: #202020;
+  overflow-x: hidden;
 }
 
 @font-face {
@@ -14,4 +15,8 @@ input, button, textarea, select {
 
 html {
   scroll-behavior: smooth;
+}
+
+.App {
+  overflow-x: hidden;
 }

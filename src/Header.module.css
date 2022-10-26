@@ -6,15 +6,16 @@
     padding-right: 5%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     justify-items: center;
 }
 
 .logo__text {
 font-family: Leixo;
 color: #FEDA4E;
-font-size: 40px;
+font-size: 2.6041666666666665vw;
 font-weight: bold;
+flex-grow: 2;
 }
 
 .logo__text span :hover{
@@ -24,7 +25,8 @@ font-weight: bold;
 .main__menu {
 
 align-self: center;
-
+flex-grow: 3;
+margin-left: 15vw;
 }
 
 .main__menu ul{
@@ -43,8 +45,8 @@ list-style-type: none;
     display: inline;
     padding: 8px;
     text-decoration: none;
-    font-size: 20px;
-    margin-right: 10%;
+    font-size: 1.3020833333333333vw;
+    margin-right: 2vw;
 }
 
 .main__menu li :hover{
@@ -61,7 +63,8 @@ list-style-type: none;
 align-self: center;
 padding: 8px;
 color: white;
-font-size: 30px;
+font-size: 1.953125vw;
+flex-grow: 0;
 }
 .social__links span {
 padding-right: 10px;
@@ -71,3 +74,17 @@ padding-right: 10px;
     color: #FEDA4E;
 }
 
+/* @media screen and (max-width: 900px) {
+    .header__container {
+        justify-content: space-around;
+        padding: 0px;
+        margin: 0px;
+    }
+    .social__links {
+        display: none;
+    }
+    .main__menu li> a{
+        padding: clamp(0.5vw,1vw,0.5vw);
+        margin: clamp(0.5vw,1vw,0.5vw);
+    }
+} */
