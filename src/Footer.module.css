@@ -92,3 +92,59 @@ color:white;
         margin-top: 10px;
         margin-bottom: 10px;
     }
+
+    @media screen and (max-width: 1138px) {
+        .footer__section {
+            padding: 2vw 2vw;
+        }
+    }
+
+    @media screen and (max-width: 869px) {
+        .footer__section {
+            display: flex;
+            flex-direction: column;
+        }
+        .footer__name {
+            display: flex;
+            flex-direction: row;
+        }
+        .js {
+            margin-top: 0px;
+            margin-left: 4vw;
+        }
+        .footer__menu {
+            margin-top: 8vh;
+            text-align: center;      
+        }
+        .footer__menu > ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 2.5vw;
+        }
+        .footer__headings {
+            text-align: center;
+            margin-top: 4vh;
+        }
+        .footer__contact {
+            text-align: center;
+        }
+        .contact__text {
+            padding-top: 4vh ;
+        }
+        .social__links {
+            font-size: 4vw;
+            margin-top: 3vh;
+        }
+
+        .footer__bottom__text {
+            font-size: 3vw;
+        }
+    }
+
+    @media screen and (max-width: 445px) {
+        .js {
+            font-size: 5vw;
+            align-self: center;
+        }
+    }

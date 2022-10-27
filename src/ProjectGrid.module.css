@@ -47,3 +47,9 @@
     z-index: 4;
   }
   
+  @media screen and (max-width: 519px) {
+    nav > a {
+        font-size: 8vw;
+        margin-top: 2vh;
+    }
+  }
