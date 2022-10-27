@@ -52,3 +52,14 @@ color: white;
 font-size: 1.4322916666666667vw;
 }
 
+@media screen and (max-width: 908px) {
+    .intro__text{
+        line-height: 2vh;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    .intro__text{
+        line-height: 1vh;
+    }
+}
