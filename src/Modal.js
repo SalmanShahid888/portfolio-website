@@ -7,8 +7,8 @@ if (!props.open) return null;
 
     return createPortal(
       <>      
-          <div className="modal">
-            <div onClick={props.onClose} className="modal__overlay"></div>
+          <div className="">
+            <div onClick={props.onClose} className=""></div>
             <div className="modal__content">
               <h2>Your Message has been sent!</h2>
               <p>
