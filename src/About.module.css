@@ -1,75 +1,74 @@
 .about__heading {
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    font-weight: 400;
-    padding-bottom: 2%;
-    padding-top: 5%;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-bottom: 2%;
+  padding-top: 5%;
 }
 
 .heading__section {
-    background-color: #272727;
+  background-color: #272727;
 }
 
 .about__section {
-    padding: 0% 10% 05% 10%;
-    background-color: #272727;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  padding: 0% 10% 05% 10%;
+  background-color: #272727;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .social__links {
-    display: inline;
-    align-self: left;
-    padding: 8px;
-    color: white;
-    font-size: 2vw;
-    align-self: center;
-    margin: 2%;
-    }
-
-    .social__links span {
-        padding: 10px;
-    }
-
-.profile__pic{
-height: 70%;
-width: 30%;
-border-radius: 60%;
-align-self: center;
-
+  display: inline;
+  align-self: left;
+  padding: 8px;
+  color: white;
+  font-size: 2vw;
+  align-self: center;
+  margin: 2%;
 }
-    
+
+.social__links span {
+  padding: 10px;
+}
+
+.profile__pic {
+  height: 90%;
+  width: 40%;
+  border-radius: 60%;
+  align-self: center;
+}
+
 .profile__section {
-display: flex;
-flex-direction: column;
-align-content: center;
-padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding-top: 5%;
 }
 
 .profile__name {
-    color: white;
-    font-weight: 400;
-    font-size: 1.5625vw;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 30px;
+  color: white;
+  font-weight: 400;
+  font-size: 1.5625vw;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
 }
 
 .social__links span :hover {
-        color: #FEDA4E;
+  color: #feda4e;
 }
 
 .about__text {
-    color: white;
-    font-size: 1.3020833333333333vw;
-    font-weight: 300;
-    padding-left: 12%;
+  color: white;
+  font-size: 1.3020833333333333vw;
+  font-weight: 300;
+  padding-left: 12%;
 }
 
 @media screen and (max-width: 950px) {
-    .about__section {
-        padding: 0% 10% 05% 0%;
-    }
+  .about__section {
+    padding: 0% 10% 05% 0%;
+  }
 }
